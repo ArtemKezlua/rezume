@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+.h1-name {
+    margin: 10px 0 0 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.h1-name > b {
+    font-weight: 800;
+}
+
+.line-elements {
+    text-align: center;
+    margin: 20px;
+}
+
+.line-elements span {
+    color: gray;
+    padding: 0 7px;
+}
+
+.indent {
+    line-height: 1.5;
+    padding: 0 70px;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.img-class {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.div-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-background {
+    display: flex;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+}
+
+.img-background > img {
+    width: 70%;
+}
+
+.bordered {
+    padding: 5px 0;
+    color: #5a5a5a;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.border-left-right {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.point {
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 5px;
+    width: 5px;
+    height: 5px;
+}
+
+.text-color {
+    color: black;
+}
+
+.text-color > b {
+    font-weight: 800;
+}
+
+.text-size {
+    font-size: 1.5em;
+}
+
+.line {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
